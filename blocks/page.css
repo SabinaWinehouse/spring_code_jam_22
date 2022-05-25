@@ -1,15 +1,7 @@
 .page {
   margin: 0 auto;
   max-width: 1280px;
-<<<<<<< HEAD
-  font-family: "Inter", Arial, sans-serif;
-  box-sizing: border-box;
-}
-.page__content {
-  max-width: 880px;
-=======
 }
 .page__content {
   max-width: 1280px;
->>>>>>> 3dc2a07bfc22ccc539ce584ae771575c246f0897
 }

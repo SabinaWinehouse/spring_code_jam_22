@@ -1,21 +1,12 @@
 .about {
   margin: 0 auto;
-<<<<<<< HEAD
-  max-width: 80%;
-=======
   max-width: 100%;
->>>>>>> 3dc2a07bfc22ccc539ce584ae771575c246f0897
   display: grid;
   grid-template-areas:
     "img title"
     "img paragraph";
   grid-template-columns: 480px auto;
-<<<<<<< HEAD
-  background-color: rgb(238, 238, 238);
-  border-radius: 50px;
-=======
   background-color: gray;
->>>>>>> 3dc2a07bfc22ccc539ce584ae771575c246f0897
 }
 .about__img {
   grid-area: img;
