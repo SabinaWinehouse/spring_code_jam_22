@@ -1,6 +1,6 @@
 # spring_code_jam_22
 
-## Terry Tegegne's homepage is a project of Spring Code Jam 2022
+## Terry Tegegne's homepage is a project of Spring Code Jam 2022 made by students of Practicum course
 
 ### Project features
 

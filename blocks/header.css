@@ -28,7 +28,9 @@
   font-size: 60px;
   line-height: 72px;
 }
-
+.header__title-hello {
+  font-size: 90px;
+}
 .header__subtitle {
 }
 .header__description {
