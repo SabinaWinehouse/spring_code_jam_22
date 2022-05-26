@@ -4,9 +4,13 @@
 
 ### Project features
 
-Semantic HTML5
-Flexbox
-Grid
-Positioning
-Flat BEM
-JavaScript
+- Semantic HTML5
+- Flexbox
+- Grid
+- Positioning
+- Flat BEM
+- JavaScript
+
+**GitHub**
+
+-
