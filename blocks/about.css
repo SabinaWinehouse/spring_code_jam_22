@@ -1,12 +1,14 @@
 .about {
-  margin: 0 auto;
+  box-shadow: 0px 5px 10px grey;
+  margin: 0 auto 70px;
   max-width: 100%;
   display: grid;
   grid-template-areas:
     "img title"
     "img paragraph";
   grid-template-columns: 480px auto;
-  background-color: gray;
+  border-radius: 30px;
+  background-color: rgb(236, 236, 236);
 }
 .about__img {
   grid-area: img;
@@ -21,4 +23,28 @@
 .about__paragraph {
   max-width: 475px;
   grid-area: paragraph;
+}
+@media screen and (max-width: 733px) {
+  .about {
+    grid-template-columns: 320px auto;
+  }
+  .about__img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .about {
+    grid-template-columns: 250px auto;
+  }
+  .about__img {
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 451px) {
+  .about {
+    text-align: center;
+    display: block;
+    margin: 38px 0 40px 0;
+    padding: 0 0 20px 0;
+  }
 }

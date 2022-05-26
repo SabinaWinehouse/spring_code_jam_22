@@ -1,6 +1,7 @@
 .card {
 }
 .card__picture {
+  max-width: 200px;
 }
 .card__title {
 }

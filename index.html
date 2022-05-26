@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="landing page for Terry Tegegne" />
+    <meta name="keywords" content="landing page about me resume" />
+    <meta name="authors" content="Team Wimari" />
     <title>Terry Tegegne</title>
   </head>
   <body class="page">
@@ -18,18 +21,28 @@
             <li href="#contact" class="nav__links-item">Contact</li>
           </ul>
         </nav>
-        <h1 class="header__title">Hello, my name is Terry S. Tegegne</h1>
-        <h3 class="header__subtitle">It's nice to meet you!</h3>
-        <div class="header__image">placeholder</div>
-        <p class="header__description">
-          Terry S. Tegegne, 28 Occupation: Freelance UX designer Hometown:
-          Quincy, Massachusetts Goal: Expand career into software engineering
-        </p>
+
+        <div class="header__image">
+          <img
+            src="./images/Terrybench.png"
+            alt="terry is procrastinating on a bench beside a pidgen"
+            class="header__image_content"
+          />
+        </div>
+        <div class="header__text">
+          <h1 class="header__title">Hello, my name is Terry S. Tegegne</h1>
+          <h3 class="header__subtitle">It's nice to meet you!</h3>
+          <p class="header__description">
+            Terry S. Tegegne, 28 Occupation: Freelance UX designer Hometown:
+            Quincy, Massachusetts Goal: Expand career into software engineering
+          </p>
+        </div>
       </header>
-      <main class="main">
+
+      <main>
         <section class="about">
           <img
-            src="./img_jam/Terryavatar_.png"
+            src="./images/Terryavatar_.png"
             alt="About Terry"
             class="about__img"
           />
@@ -44,58 +57,7 @@
             versatile other interests in life.
           </p>
         </section>
-        <section class="hobbies">
-          <h2 class="hobbies__title">My hobbies</h2>
-          <img
-            src="./img_jam/Terrysmile.png"
-            alt="Terry smiles"
-            class="hobbies__image"
-          />
 
-          <ul class="hobbies__list">
-            <li class="card">
-              <img
-                src="./img_jam/Terrybench.png"
-                alt=""
-                class="card__picture"
-              />
-
-              <h3 class="card__title">Reads sci-fi</h3>
-            </li>
-            <li class="card">
-              <img
-                src="./img_jam/terry's_hobbies.png"
-                alt=""
-                class="card__picture"
-              />
-
-              <h3 class="card__title">
-                Listens to a lot of podcasts on history & politics
-              </h3>
-            </li>
-            <li class="card">
-              <img
-                src="./img_jam/Terrychill.png"
-                alt=""
-                class="card__picture"
-              />
-
-              <h3 class="card__title">Runs a TikTok blog of his pet goat</h3>
-            </li>
-            <li class="card">
-              <img
-                src="./img_jam/terry_working.png"
-                alt=""
-                class="card__picture"
-              />
-
-              <h3 class="card__title">
-                is into calligraphy & embroidery (likes tedious work and pays
-                attention to details)
-              </h3>
-            </li>
-          </ul>
-        </section>
         <section class="hobbies">
           <h2 class="hobbies__title">My hobbies</h2>
           <img
@@ -140,16 +102,17 @@
             </li>
           </ul>
         </section>
-
+        <section class="skills" id="skills"></section>
         <section class="message" id="message">
           <div class="message__image-wrapper">
-            <h2 class="message__title">Give me a shout!</h2>
+            <h2 class="message__title">Give me a&nbsp;shout!</h2>
             <img
               class="message__image"
               src="./images/terry_message_me.png"
               alt="picture of Terry"
             />
           </div>
+
           <div class="message__form-container">
             <form class="form message__form">
               <h2 class="form__title">Message me</h2>
@@ -187,8 +150,6 @@
                   class="form__input input__text"
                   id="message"
                   type="text"
-                  rows="10"
-                  cols="25"
                   placeholder="Message, additional contact information, etc..."
                   required
                 ></textarea>
@@ -200,7 +161,8 @@
           </div>
         </section>
       </main>
-      <footer class="footer">
+
+      <footer id="contact" class="footer">
         <div class="footer__image-wrapper">
           <ul class="footer__image-list">
             <li class="footer__list-item">
@@ -208,6 +170,7 @@
                 class="footer__list-image"
                 src="./images/facebook_logo_icon.svg"
                 alt="facebook logo"
+                onclick="window.location.href='https://facebook.com';"
               />
             </li>
             <li class="footer__list-item">
@@ -215,6 +178,7 @@
                 class="footer__list-image"
                 src="./images/instagram_logo_icon.svg"
                 alt="instagram logo"
+                onclick="window.location.href='https://instagram.com';"
               />
             </li>
             <li class="footer__list-item">
@@ -222,6 +186,7 @@
                 class="footer__list-image"
                 src="./images/twitter_logo_icon.svg"
                 alt="twitter logo"
+                onclick="window.location.href='https://twitter.com';"
               />
             </li>
             <li class="footer__list-item">
@@ -229,12 +194,15 @@
                 class="footer__list-image"
                 src="./images/linkedin_logo_icon.svg"
                 alt="linkedin logo"
+                onclick="window.location.href='https://linkedin.com';"
               />
             </li>
             <li class="footer__list-item">
               <img
                 class="footer__list-image"
                 src="./images/github_logo_icon.svg"
+                alt="github logo"
+                onclick="window.location.href='https://github.com';"
               />
             </li>
           </ul>
@@ -242,5 +210,19 @@
         <p class="footer__paragraph">©️2022 Team WiMaRi</p>
       </footer>
     </div>
+
+    <div class="popup">
+      <div class="popup__container">
+        <button class="popup__close-button" type="button"></button>
+        <img
+          class="popup__image"
+          src="./images/flying_robot.png"
+          alt="flying robot"
+        />
+        <p class="popup__message">Thank you! I will get back to you ASAP!</p>
+      </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
