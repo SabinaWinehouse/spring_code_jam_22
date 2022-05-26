@@ -1,7 +1,27 @@
 .card {
+  background-color: white;
+  border-radius: 10px 10px;
+  max-width: 600px;
+  color: black;
+  margin: 0 0 70px;
 }
 .card__picture {
-  max-width: 200px;
+  border-radius: 10px 10px 0 0;
+  max-width: 420px;
+  display: block;
+  max-height: 235px;
 }
 .card__title {
+  align-self: end;
+  margin: 0;
+}
+@media screen and (max-width: 1024px) {
+  .card__picture {
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card__picture {
+    max-width: 262px;
+  }
 }
