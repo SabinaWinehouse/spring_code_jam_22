@@ -13,4 +13,4 @@
 
 **GitHub**
 
--
+- [Link to the project in GitHub] (https://sabinawinehouse.github.io/spring_code_jam_22/)
